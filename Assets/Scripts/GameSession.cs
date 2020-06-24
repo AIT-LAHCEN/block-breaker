@@ -11,7 +11,7 @@ public class GameSession : MonoBehaviour
     [SerializeField] int firstLevelIndex;
     [SerializeField] TextMeshProUGUI scoreDisplay;
 
-    private int totalLevels, currentLevel, currentScore;
+    public int totalLevels, currentLevel, currentScore;
 
     private void Awake()
     {
